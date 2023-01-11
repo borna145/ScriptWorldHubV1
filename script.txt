@@ -1,5 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ScriptWorldGUI V1", "Midnight")
+ 
 --Main
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Made by: borna3234#1100")
@@ -59,3 +60,12 @@ ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is Synta
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
 end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewLabel("Work in progress")
