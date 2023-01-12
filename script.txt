@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ScriptWorldGUI V1", "Midnight")
- 
+
 --Main
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Made by: borna3234#1100")
@@ -57,7 +57,7 @@ ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is Synta
         TabList = 0,
         Scripts = 1,
     }
-    
+
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
 end)
 ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
@@ -68,4 +68,962 @@ ScriptsSection:NewButton("Sword Script", "S w o r d", function()
 end)
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("Settings")
-SettingsSection:NewLabel("Work in progress")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+
+end)
+end)
+SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "LightTheme")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+
+end)
+end)
+SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "Midnight")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("LightTheme", "Make sure to close other tab", function()
+
+end)
+end)
+SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "LightTheme")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    
+    end)
+    end)
+    SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "Midnight")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("LightTheme", "Make sure to close other tab", function()
+    
+    end)
+    end)
+    SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "LightTheme")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+    
+    --Main
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Made by: borna3234#1100")
+    MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+    --Scripts
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+    ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+    end)
+    ScriptsSection:NewButton("Ender", "Ender Script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+    end)
+    ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end)
+    ScriptsSection:NewButton("Flip", "Flipping script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+    end)
+    ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+    end)
+    
+    ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end)
+    ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+        loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+    end)
+    ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+    end)
+    ScriptsSection:NewButton("Firex hub", "Hub", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+    end)
+    ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+        shared.colors = {
+            Icons = Color3.fromRGB(0,255,149),
+            Version = Color3.fromRGB(0,255,149),
+            Text = Color3.fromRGB(255,255,255),
+            Description = Color3.fromRGB(125,125,125),
+            TabList = Color3.fromRGB(30,30,30),
+            Scripts = Color3.fromRGB(30,30,30),
+            Back = Color3.fromRGB(25,25,25),
+            Glow = Color3.fromRGB(0,0,0),
+        }
+        shared.transparency = {
+            Version = 0,
+            Text = 0,
+            Description = 0,
+            Icons = 0,
+            Back = 0,
+            Glow = 0.5,
+            TabList = 0,
+            Scripts = 1,
+        }
+    
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+    end)
+    ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+    end)
+    ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+    end)
+    local Settings = Window:NewTab("Settings")
+    local SettingsSection = Settings:NewSection("Settings")
+    SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    
+    end)
+    end)
+    SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+    
+    end)
+    end)
+    end)
+    end)
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ScriptWorldGUI V1", "Ocean")
+
+--Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Made by: borna3234#1100")
+MainSection:NewLabel("https://xheptcofficial.gitbook.io/kavo-library/")
+--Scripts
+local Scripts = Window:NewTab("Scripts")
+local ScriptsSection = Scripts:NewSection("Scripts")
+ScriptsSection:NewButton("Respawn", "Respawn I guess", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0HJNT63d"))()
+end)
+ScriptsSection:NewButton("Ender", "Ender Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VThRR4Lu"))()
+end)
+ScriptsSection:NewButton("Infinite Yield", "Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+ScriptsSection:NewButton("Flip", "Flipping script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TgTiX1Kr"))()
+end)
+ScriptsSection:NewButton("Gelatek Hub", "Yes", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/Main.lua"))()
+end)
+
+ScriptsSection:NewButton("ChatHax", "Copies players chat", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+ScriptsSection:NewButton("FE SOUND PANEL", "S O U N D", function()
+    loadstring(game:HttpGet("https://controlc.com/b0ce8c3e"))()
+end)
+ScriptsSection:NewButton("Backdoor finder", "Finder", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+ScriptsSection:NewButton("Firex hub", "Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+ScriptsSection:NewButton("Syntax V3 check three dots for key", "The key is SyntaxV3Free", function()
+    shared.colors = {
+        Icons = Color3.fromRGB(0,255,149),
+        Version = Color3.fromRGB(0,255,149),
+        Text = Color3.fromRGB(255,255,255),
+        Description = Color3.fromRGB(125,125,125),
+        TabList = Color3.fromRGB(30,30,30),
+        Scripts = Color3.fromRGB(30,30,30),
+        Back = Color3.fromRGB(25,25,25),
+        Glow = Color3.fromRGB(0,0,0),
+    }
+    shared.transparency = {
+        Version = 0,
+        Text = 0,
+        Description = 0,
+        Icons = 0,
+        Back = 0,
+        Glow = 0.5,
+        TabList = 0,
+        Scripts = 1,
+    }
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+ScriptsSection:NewButton("Dual Ultima", "may or may not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3E2GWUG7"))()
+end)
+ScriptsSection:NewButton("Sword Script", "S w o r d", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/35ZWp4d4'))()
+end)
+local Settings = Window:NewTab("Settings")
+local SettingsSection = Settings:NewSection("Settings")
+SettingsSection:NewButton("Ocean Theme", "Make sure to close other tab", function()
+
+end)
+end)
+SettingsSection:NewButton("LightTheme","Make sure to close other tab", function()
+
+end)
+end)
+end)
