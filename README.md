@@ -1,3 +1,5 @@
 # ScriptWorldHubV1
 Hub v1 Roblox script
-A simple script
+A simple GUI with fe scripts
+**WARNING**
+THIS SCRIPT IS NO LONGER UNDER DEVELOPMENT A V2 WILL BE OUT I WILL UPDATE THIS WITH THE LINK WHEN IT IS OUT
